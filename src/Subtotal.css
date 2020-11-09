@@ -1,0 +1,32 @@
+.subtotal__items {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.subtotal {
+  min-width: 350px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+.subtotal__button {
+  margin: 10px;
+  background: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  min-width: 350px;
+  color: #111;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+}
+.subtotal__checkbox {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.subtotal__checkbox > label {
+  margin-left: 5px;
+}
